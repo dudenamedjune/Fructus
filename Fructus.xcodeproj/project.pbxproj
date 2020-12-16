@@ -11,6 +11,8 @@
 		49519F602589B24100CF9E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49519F5F2589B24100CF9E4F /* ContentView.swift */; };
 		49519F622589B24100CF9E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49519F612589B24100CF9E4F /* Assets.xcassets */; };
 		49519F652589B24100CF9E4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49519F642589B24100CF9E4F /* Preview Assets.xcassets */; };
+		49519F752589C8CE00CF9E4F /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49519F742589C8CE00CF9E4F /* FruitCardView.swift */; };
+		49519F782589D4F400CF9E4F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49519F772589D4F400CF9E4F /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		49519F612589B24100CF9E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49519F642589B24100CF9E4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49519F662589B24100CF9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49519F742589C8CE00CF9E4F /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		49519F772589D4F400CF9E4F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 		49519F5C2589B24100CF9E4F /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
-				49519F5D2589B24100CF9E4F /* FructusApp.swift */,
-				49519F5F2589B24100CF9E4F /* ContentView.swift */,
+				49519F732589C87F00CF9E4F /* View */,
+				49519F712589C85000CF9E4F /* App */,
 				49519F612589B24100CF9E4F /* Assets.xcassets */,
 				49519F662589B24100CF9E4F /* Info.plist */,
 				49519F632589B24100CF9E4F /* Preview Content */,
@@ -67,6 +71,24 @@
 				49519F642589B24100CF9E4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49519F712589C85000CF9E4F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49519F5D2589B24100CF9E4F /* FructusApp.swift */,
+				49519F5F2589B24100CF9E4F /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		49519F732589C87F00CF9E4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49519F742589C8CE00CF9E4F /* FruitCardView.swift */,
+				49519F772589D4F400CF9E4F /* StartButtonView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49519F752589C8CE00CF9E4F /* FruitCardView.swift in Sources */,
+				49519F782589D4F400CF9E4F /* StartButtonView.swift in Sources */,
 				49519F602589B24100CF9E4F /* ContentView.swift in Sources */,
 				49519F5E2589B24100CF9E4F /* FructusApp.swift in Sources */,
 			);
