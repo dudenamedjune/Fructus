@@ -17,3 +17,4 @@ struct Fruit: Identifiable {
     var description: String
     var nutrition: [String]
 }
+
